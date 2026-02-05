@@ -1,24 +1,24 @@
 # Weekly ToC Digest (week of 2026-02-05)
 
-Only one paper partially relevant due to combined EEG and behavioral analysis. Papers were selected based on relevance to neural dynamics and physiological signal processing methods. Sorted by relevance to neural and physiological methods, excluding heavy molecular biology focus. Prioritized articles focus on physiological signal processing, neural dynamics in model systems, and computational methods applied to neuroscience.
+This week's articles include computational methods and neural dynamics, aligning with user interests in neural/physiological time series. Focus on methodologies and neural dynamics, emphasizing cross-species studies and electrophysiology approaches relevant to the user's interests. Papers were ranked based on alignment with interests in neural/physiological time series, signal processing, and dynamics. Clinical and primarily molecular biology studies were deprioritized. Prioritized based on methods for neural/physiological time series and related interests, with electroencephalography (EEG) given preference where applicable.
 
-**Included:** 6 (score ≥ 0.65)  
-**Scored:** 15 total items
+**Included:** 10 (score ≥ 0.65)  
+**Scored:** 18 total items
 
 ---
 
-## [Phase resetting in human stem cell derived cardiomyocytes explains complex cardiac arrhythmias](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013935)
-*PLOS Computational Biology*  
+## [Quantifying State-Dependent Control Properties of Brain Dynamics from Perturbation Responses](http://www.jneurosci.org/cgi/content/short/46/5/e0364252025?rss=1)
+*J Neurosci*  
 Score: **0.90**  
-Published: 2026-02-04T14:00:00+00:00
-Tags: ECG, oscillations, methods
+Published: 2026-02-04T17:30:28+00:00
+Tags: brain dynamics, methods, network control
 
-The study employs phase response curves in cardiomyocytes which align with interest in oscillations and physiological signal processing.
+Article explores brain dynamics using network control theory, aligning with user's interest in methods for neural time series and control properties.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Khady Diagne, Thomas M. Bury, Morgan E. Pettebone, Marc W. Deyell, Zachary Laksman, Alvin Shrier, Leon Glass, Gil Bub, Emilia Entcheva</p> Phase resetting of cardiac oscillators underlies some complex arrhythmias. Here we use optogenetic stimulation to construct phase response curves (PRC) for spheroids of human induced pluripotent stem cell derived cardiomyocytes (hiPSC-CM) and a computational cardiomyocyte model to identify ionic mechanisms shaping the PRC. The clinical utility of the hu…
+<p>The brain can be conceptualized as a control system facilitating transitions between states, such as from rest to motor activity. Applying network control theory to measurements of brain signals enables characterization of brain dynamics through control properties. However, most prior studies that have applied network control theory have evaluated brain dynamics under unperturbed conditions, neglecting the critical role of external perturbations in accurate system identification. In this stud…
 
 </details>
 
@@ -28,9 +28,9 @@ The study employs phase response curves in cardiomyocytes which align with inter
 *Nature Neuroscience*  
 Score: **0.90**  
 Published: 2026-02-04T00:00:00+00:00
-Tags: neural dynamics, methods
+Tags: neural dynamics, methods, neuroscience
 
-The paper deals with neuronal correlations and geometry in task coding, relevant to methods for understanding neural dynamics.
+This study explores neuronal correlations and geometry in task generalization, which aligns with interests in neural dynamics and computational neuroscience.
 
 <details>
 <summary>RSS summary</summary>
@@ -41,47 +41,57 @@ The paper deals with neuronal correlations and geometry in task coding, relevant
 
 ---
 
-## [Early psychosocial deprivation alters the refinement of neural dynamics across adolescence](https://www.pnas.org/doi/abs/10.1073/pnas.2514979123?af=R)
-*Proceedings of the National Academy of Sciences: Neuroscience*  
-Score: **0.80**  
-Published: 2026-02-02T08:00:00+00:00
-Tags: neural dynamics, modeling, adolescence
+## [An EEG dataset with carbon wire loops in cognitive tasks and resting state inside and outside MR scanners](https://www.nature.com/articles/s41597-026-06734-1)
+*Scientific Data*  
+Score: **0.90**  
+Published: 2026-02-04T00:00:00+00:00
+Tags: EEG, methods
 
-The paper examines the development of recurrent neural dynamics using modeling, aligning with interests in neural time series and dynamics.
+The dataset involves EEG collected during cognitive tasks, relevant for physiological signal processing interests.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 6, February 2026. <br />SignificanceAdolescence is a period of major behavioral and neural change. Here, we use modeling to examine how the trajectory of recurrent computations supporting cognitive control develops across adolescence. Using data from the Bucharest Early ...
+<p>Scientific Data, Published online: 04 February 2026; <a href="https://www.nature.com/articles/s41597-026-06734-1">doi:10.1038/s41597-026-06734-1</a></p>An EEG dataset with carbon wire loops in cognitive tasks and resting state inside and outside MR scanners
 
 </details>
 
 ---
 
-## [Modeling human visuomotor adaptation with a disturbance observer framework](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013937)
-*PLOS Computational Biology*  
-Score: **0.75**  
-Published: 2026-02-04T14:00:00+00:00
-Tags: methods, timescales
+## [This Week in The Journal](http://www.jneurosci.org/cgi/content/short/46/5/etwij4652026?rss=1)
+*J Neurosci*  
+Score: **0.85**  
+Published: 2026-02-04T17:30:29+00:00
+Tags: neural dynamics, electrophysiology
 
-Uses a control theory framework contributing to understanding brain recalibration processes, relevant to methods for neural time series.
+This journal typically covers cutting-edge neural dynamics and electrophysiology studies, making it relevant.
+
+---
+
+## [A neural circuit framework for economic choice: From building blocks of valuation to compositionality in multitasking](https://www.cell.com/neuron/fulltext/S0896-6273(25)00937-7?rss=yes)
+*Neuron*  
+Score: **0.80**  
+Published: 2026-02-04T00:00:00+00:00
+Tags: neural circuits, computation, methods
+
+The use of RNNs to understand circuit mechanisms in decision-making provides insights into neural processing and dynamics, relevant to physiological signal modeling.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Gaurav Sharma, Bernard Marius ’t Hart, Jean-Jacques Orban de Xivry, Denise Y.P. Henriques, Mireille E. Broucke</p> A fundamental problem of visuomotor adaptation research is to understand how the brain is capable to asymptotically remove a predictable exogenous disturbance from a visual error signal using limited sensor information by re-calibration of hand movement. From a control theory perspective, the most striking aspect of this problem is that it falls squarely in the realm of the in…
+Battista et al. use biologically plausible RNNs to uncover the circuit mechanisms of economic choice. They propose a two-stage framework where feedforward inputs compute offer values and recurrent inhibition drives comparison. This architecture explains how the brain generalizes preferences and multitasks using compositional neural codes, offering a unified theory of decision-making.
 
 </details>
 
 ---
 
 ## [A silent Kv channel subunit shapes PV neuron action potential waveform and short-term synaptic plasticity during high-frequency firing](https://www.pnas.org/doi/abs/10.1073/pnas.2531946123?af=R)
-*Proceedings of the National Academy of Sciences: Neuroscience*  
-Score: **0.70**  
+*PNAS*  
+Score: **0.80**  
 Published: 2026-02-03T08:00:00+00:00
-Tags: waveform shape, synaptic plasticity
+Tags: waveform, neural dynamics
 
-Focuses on action potential waveform and synaptic plasticity in PV neurons, aligning with interests in waveform shape and neural dynamics.
+Focus on action potential waveform and synaptic plasticity is highly relevant to neuronal waveform shape and dynamics.
 
 <details>
 <summary>RSS summary</summary>
@@ -92,18 +102,69 @@ Proceedings of the National Academy of Sciences, Volume 123, Issue 6, February 2
 
 ---
 
-## [A 2D Gabor-wavelet baseline model out-performs a 3D surface model in scene-responsive cortex](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013888)
-*PLOS Computational Biology*  
-Score: **0.70**  
-Published: 2026-02-02T14:00:00+00:00
-Tags: computational models, visual cortex, spatial processing
+## [Local Neuronal Ensembles That Coreactivate across Regions during Sleep Are Preferentially Stabilized](http://www.jneurosci.org/cgi/content/short/46/5/e1125252025?rss=1)
+*J Neurosci*  
+Score: **0.75**  
+Published: 2026-02-04T17:30:28+00:00
+Tags: neuronal dynamics, synchronization
 
-Focuses on computational models for spatial information processing, relevant to neural signal processing methods.
+Explores neuronal dynamics and synchronization, relevant for physiological neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Anna Shafer-Skelton, Timothy F. Brady, John T. Serences</p> Understanding 3D representations of spatial information, particularly in naturalistic scenes, remains a significant challenge in vision science. This is largely because of conceptual difficulties in disentangling higher-level 3D information from co-occurring features and cues (e.g., the 3D shape of a scene image is necessarily defined by “low-level” spatial frequency and orientation information). Recent work has employed newer mod…
+<p>Neuronal ensembles, which represent coordinated activity patterns within individual brain regions, play crucial roles in memory. While local ensembles dynamically change in response to experience, factors influencing the stability of neuronal ensemble compositions remain largely unknown. In this study, we analyzed the dynamics of neuronal ensembles in the prelimbic cortex layer 5 (PL5), basolateral nucleus of the amygdala (BLA), and ventral hippocampus CA1 region (vCA1) during conditioning, e…
+
+</details>
+
+---
+
+## [Caudal Granular Insular Cortex to Somatosensory Cortex I: A Critical Pathway for the Transition of Acute to Chronic Pain](http://www.jneurosci.org/cgi/content/short/46/5/e1306252025?rss=1)
+*J Neurosci*  
+Score: **0.70**  
+Published: 2026-02-04T17:30:29+00:00
+Tags: neural pathways, signal processing
+
+Focuses on pain pathways involving neural signaling, relevant for physiological signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Allodynia (perceiving touch as painful) is an enduring symptom of neuropathic pain. While acute pain is initiated by afferent signaling from the periphery to spinal cord, pain chronification recruits ongoing activity in supraspinal sites. One such site that has been proposed to be important in pain chronification is the caudal granular insular cortex (CGIC). The present studies of allodynia in response to sciatic nerve injury in male and female rats focus on the role of CGIC in pain chronific…
+
+</details>
+
+---
+
+## [A mesoscale optogenetics system for precise and robust stimulation of the primate cortex](https://www.cell.com/neuron/fulltext/S0896-6273(25)00928-6?rss=yes)
+*Neuron*  
+Score: **0.70**  
+Published: 2026-02-03T00:00:00+00:00
+Tags: methods, optogenetics
+
+Involves methods in neural dynamics and stimulation, relevant to signal processing and neuroscience method interests.
+
+<details>
+<summary>RSS summary</summary>
+
+Li et al. present a microLED-based mesoscale optogenetic system for centimeter-scale, million-pixel primate cortical stimulation. Optogenetically evoked saccades with accurate retinotopic organization remain stable for over a year, demonstrating precise, robust, and durable neuromodulation and charting a path toward next-generation optical brain-computer interfaces and visual prostheses.
+
+</details>
+
+---
+
+## [The Spatial Coding of Touch Is Defined in Intrinsic, Limb-Specific Coordinates: An EEG Study](http://www.jneurosci.org/cgi/content/short/46/5/e1089252025?rss=1)
+*J Neurosci*  
+Score: **0.65**  
+Published: 2026-02-04T17:30:28+00:00
+Tags: EEG, neural encoding
+
+Utilizes EEG to study neural encoding, pertinent for neuronal signal processing methods.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>The brain computes the spatiotopic position of touch by integrating tactile and proprioceptive signals (i.e., tactile remapping). While it is often assumed that the spatiotopic touch location is mapped into extrinsic, limb-independent coordinates, an alternative view proposes that touch is remapped into intrinsic, limb-specific coordinates. To test between these hypotheses, we used electroencephalography (EEG) and a novel tactile stimulation paradigm in which participants (<i>N</i> = 20, 19 f…
 
 </details>
 
