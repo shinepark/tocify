@@ -16,16 +16,16 @@ specparam
 fooof
 bycycle
 
-## Current narrative
+## Narrative
 My research focuses on large-scale neural and physiological dynamics using computational and data-science approaches across species and recording modalities. I work extensively with heterogeneous datasets (EEG, LFP, iEEG, behavioral and physiological signals), emphasizing open science, reproducible methods, and scalable analysis tools for neural time series.
 
 A central theme of my work is developing and applying methods to better characterize neural oscillations and aperiodic (1/f-like) activity. My lab pioneered approaches to analyzing oscillatory waveform shape and spectral parameterization, demonstrating that nonsinusoidal features and aperiodic structure provide insight into synaptic physiology, excitation–inhibition balance, cognitive function, and development. We develop and release open-source Python tools for neural signal processing and apply them to large longitudinal and cross-species datasets to link brain dynamics with cognition, behavior, and disease.
 
 More broadly, I study how neural oscillations, aperiodic activity, and neuronal timescales support computation and information transfer in brain networks. Using invasive and noninvasive electrophysiology, computational modeling, and large-scale data integration, my work shows how these features relate to working memory, attention, development, and aging. I am particularly interested in theoretical and methodological advances that improve interpretation of neural and physiological time series, enable biomarker discovery, and connect brain dynamics to cognition and clinical outcomes.
 
-I prioritize research that introduces new analytic methods, theoretical frameworks, or empirical findings relevant to neural dynamics, physiological signal analysis, and cross-scale brain–behavior relationships.
+I prioritize research that introduces new analytic methods, theoretical frameworks, or empirical findings relevant to neural dynamics, physiological signal analysis, and cross-scale brain–behavior relationships. I am generally not interested in fMRI/BOLD unless it directly connects to electrophysiological dynamics or time-series methods, or novel AI / LLM / machine learning.
 
-## My papers (titles + abstracts)
+<!-- ## Papers
 * Voytek JB & Voytek B. Automated cognome construction and semi-automated hypothesis generation. J Neurosci Methods 208, 92-100 (2012).
 
 * Voytek B, Kayser A, Badre D, Fegen D, Chang EF, Crone NE, Parvizi J, Knight RT, D’Esposito M. Oscillatory dynamics coordinating human frontal networks in support of goal maintenance. Nature Neurosci 18, 1318-1324 (2015).
@@ -124,4 +124,4 @@ Peterson E, Rosen B, Belger A, Voytek B, Campbell A. Aperiodic neural activity i
 * Mushtaq F, …(84 authors)…, Valdes-Sosa P. 100 years of EEG for brain and behaviour research. Nature Hum Behav (2024)
 
 * Fitzgerald M, Kosik E, Voytek B. Neuroscience: Unveiling hidden sources of noise. eLife (2024)
-van Bree S, Levenstein D, Krause MR, Voytek B, Gao R. Processes and Measurements: a Framework for Understanding Neural Oscillations in Field Potentials. Trends Cogn Sci (2025)
+van Bree S, Levenstein D, Krause MR, Voytek B, Gao R. Processes and Measurements: a Framework for Understanding Neural Oscillations in Field Potentials. Trends Cogn Sci (2025) -->
