@@ -56,6 +56,12 @@ def load_lines(path: str) -> list[str]:
 def read_text(path: str) -> str:
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
+    
+def load_prompt_template(path: str = "prompt.txt") -> str:
+    if not os.path.exists(path):
+        raise RuntimeError("prompt.txt not found in repo root")
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
 
 def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
@@ -164,26 +170,15 @@ def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> di
         "summary": (it.get("summary") or "")[:SUMMARY_MAX_CHARS],
     } for it in items]
 
-    prompt = f"""
-You are triaging weekly journal table-of-contents RSS items for a researcher.
+    template = load_prompt_template()
 
-Output rules:
-- Return JSON strictly matching the schema.
-- score in [0,1]
-- "why": 1–2 concrete sentences grounded in title/summary (no hallucinations)
-- "tags": short (e.g., EEG, aperiodic, timescales, HMM, ECG, clinical, state dynamics)
-- Rank highest score first.
-
-Interests keywords (high weight):
-{json.dumps(interests["keywords"], ensure_ascii=False)}
-
-Interests context (brief):
-{interests["narrative"]}
-
-RSS items:
-{json.dumps(lean_items, ensure_ascii=False)}
-""".strip()
-
+    prompt = (
+        template
+        .replace("{{KEYWORDS}}", json.dumps(interests["keywords"], ensure_ascii=False))
+        .replace("{{NARRATIVE}}", interests["narrative"])
+        .replace("{{ITEMS}}", json.dumps(lean_items, ensure_ascii=False))
+    )
+    
     last = None
     for attempt in range(6):
         try:
