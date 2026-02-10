@@ -19,6 +19,8 @@ Science Robotics (AAAS) | https://www.science.org/rss/news/current.xml
 
 Tech Xplore Robotics | https://techxplore.com/robotics-news.rss 
 
+Arxiv |  https://rss.arxiv.org/rss/cs
+
 
 # AI/ML journals
 Nature Comput Sci | https://www.nature.com/natcomputsci.rss
