@@ -8,17 +8,11 @@ PNAS | http://www.pnas.org/rss/Psychological_and_Cognitive_Sciences.xml
 
 # Robotics
 Robotics (MDPI) | https://www.mdpi.com/journal/robotics/rss.xml
-
 Drones (MDPI) | https://www.mdpi.com/journal/drones/rss.xml
-
 Sensors (MDPI) | https://www.mdpi.com/journal/sensors/rss.xml
-
 Journal of Intelligent & Robotic Systems | https://link.springer.com/journal/10846/updates/rss.xml
-
 Science Robotics (AAAS) | https://www.science.org/rss/news/current.xml
-
 Tech Xplore Robotics | https://techxplore.com/robotics-news.rss 
-
 Arxiv |  https://rss.arxiv.org/rss/cs
 
 
