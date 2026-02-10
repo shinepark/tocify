@@ -4,7 +4,7 @@ SCORING CALIBRATION:
 - Give more weight if the paper clearly involves some of the keywords: the more keywords the more weight should be given
 - Give more weight to papers whose titles are similar to my papers' titles
 - Down weight purely theoretical papers without physical outcomes
-- Down weight just drone or just agricultural papers that don't have an interdisciplinary feature
+- Down weight papers that focus on sensors and spraying features
 - Heavily down weight papers that are primarily UAVs or just agriculture
 
 Prioritize and heavily weight:
